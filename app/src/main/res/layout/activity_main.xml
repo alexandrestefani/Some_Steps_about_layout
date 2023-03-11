@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF9090"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/primeirotextotela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/ic_primeiroicone_background"
+        android:text="Hello World!"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/caixatextotela1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:text="Digite"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+
+    <Button
+        android:id="@+id/buttontela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="100dp"
+        android:background="#FF5722"
+        android:text="Trocar Imagens"
+        app:rippleColor="#FF5722"
+        app:strokeColor="#FF5722"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+
+    <TextView
+        android:id="@+id/segundotextotela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFFFF"
+        android:text="clicks"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
